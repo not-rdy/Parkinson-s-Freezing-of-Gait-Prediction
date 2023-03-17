@@ -9,4 +9,4 @@ PATH_DATABASE = os.path.join(PATH_DATA, 'db')
 PATH_MODELS = os.path.join(PATH_PROJ, 'models')
 
 connector = sqlite3.connect(
-    os.path.join(PATH_DATABASE, 'mts.db'))
+    os.path.join(PATH_DATABASE, 'parkinson.db'))
